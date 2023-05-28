@@ -5,6 +5,7 @@ import { Gallery } from "./components/Gallery/Gallery";
 import { Advantages } from "./components/Advantages/Advantages";
 import { Book } from "./components/Book/Book";
 import { Contacts } from "./components/Contacts/Contacts";
+import { Investments } from "./components/Investments/Investments";
 
 export {
   Layout,
@@ -14,4 +15,5 @@ export {
   Advantages,
   Book,
   Contacts,
+  Investments,
 };

@@ -5,6 +5,7 @@ import {
   Book,
   Contacts,
   Gallery,
+  Investments,
   Layout,
   Preview,
 } from "../../widgets";
@@ -16,6 +17,7 @@ export const Main: FC = (): JSX.Element => {
       <Preview />
       <About />
       <Gallery />
+      <Investments />
       <Advantages />
       <Book />
       <Contacts />
