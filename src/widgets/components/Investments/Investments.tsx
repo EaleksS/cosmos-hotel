@@ -10,10 +10,7 @@ export const Investments: FC = (): JSX.Element => {
   return (
     <div className={styles.investments} id="investments">
       <div className={styles.items}>
-        <img
-          src="https://i.1.creatium.io/4f/e8/38/6426af8d91e6147e3f26a1cb13b660f896/prezentaciya_kosmos_3_18_pdf_1.jpg"
-          alt="img"
-        />
+        <img src="/img/9.jpg" alt="img" />
         <div className={styles.title}>
           <img src="/o3.svg" alt="img" />
           <Text type="h2">
@@ -30,10 +27,7 @@ export const Investments: FC = (): JSX.Element => {
         </div>
       </div>
       <div className={styles.items} style={{ marginTop: "8rem" }}>
-        <img
-          src="https://i.1.creatium.io/40/b3/7d/5fc15f72263f51e9e0ce68f9c324a3230b/prezentaciya_kosmos_3_19_pdf_1.jpg"
-          alt="img"
-        />
+        <img src="/img/10.jpg" alt="img" />
         <div className={styles.title}>
           <img src="/o4.svg" alt="img" />
           <Text type="h2">
@@ -52,10 +46,7 @@ export const Investments: FC = (): JSX.Element => {
       </div>
 
       <div className={styles.img}>
-        <img
-          src="https://i.1.creatium.io/90/83/41/b967416c98644580995a8744eeba2dbaae/prezentaciya_kosmos_3_4_pdf_1_1.jpg"
-          alt="img"
-        />
+        <img src="/img/11.jpg" alt="img" />
       </div>
     </div>
   );

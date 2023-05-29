@@ -9,11 +9,7 @@ export const Preview: FC = (): JSX.Element => {
 
   return (
     <div className={styles.preview}>
-      <img
-        className={styles.img_preview}
-        src="https://i.1.creatium.io/82/64/b5/6518ed57240aa6e6c34456b787df625ebc/belladzhio_3_1.jpg"
-        alt="preview"
-      />
+      <img className={styles.img_preview} src="/img/12.jpg" alt="preview" />
       <div className={styles.bg}></div>
 
       <Text type="h1" color="#fff">
